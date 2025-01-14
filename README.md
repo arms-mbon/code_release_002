@@ -6,18 +6,6 @@ This repository contains all scripts and code used for the analyses presented in
 
 ---
 
-## Table of Contents
-
-1. [decontam](#1-decontam.R)
-2. [rename_samples](#2-rename_samples.R)
-3. [merge_tables](#3-merge_tables)
-   - [COI](#coi_merge_tables.R)
-   - [18S](#18s_merge_tables.R)
-   - [ITS](#its_merge_tables.R)
-4. [gene_analysis](#4-gene_analysis.R)
-
----
-
 ### 1. decontam.R
 
 **Description:**  
