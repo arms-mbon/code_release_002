@@ -12,11 +12,149 @@
             }
         },
         {
+            "@id": "./final_count_taxonomy_fasta_files/",
+            "@type": "Dataset",
+            "label": "./final_count_taxonomy_fasta_files/",
+            "hasPart": [
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/18S_tax_table.txt"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/COI_ASVs.fa"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/COI_ASV_table.txt"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/ITS_tax_table.txt"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/18S_OTU_table.txt"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/18S_OTUs.fa"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/ITS_ASVs.fa"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/COI_tax_table.txt"
+                },
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/ITS_ASV_table.txt"
+                }
+            ]
+        },
+        {
             "@id": "./",
             "@type": "Dataset",
             "label": "./",
             "hasPart": [
+                {
+                    "@id": "./final_count_taxonomy_fasta_files/"
+                },
+                {
+                    "@id": "./2._rename_samples.R"
+                },
+                {
+                    "@id": "./sample_data.csv"
+                },
+                {
+                    "@id": "./3._COI_merge_tables.R"
+                },
+                {
+                    "@id": "./3._ITS_merge_tables.R"
+                },
+                {
+                    "@id": "./3._18S_merge_tables.R"
+                },
+                {
+                    "@id": "./4._gene_analysis.R"
+                },
+                {
+                    "@id": "./1._decontam.R"
+                }
             ]
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/18S_tax_table.txt",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/18S_tax_table.txt"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/COI_ASVs.fa",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/COI_ASVs.fa"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/COI_ASV_table.txt",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/COI_ASV_table.txt"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/ITS_tax_table.txt",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/ITS_tax_table.txt"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/18S_OTU_table.txt",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/18S_OTU_table.txt"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/18S_OTUs.fa",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/18S_OTUs.fa"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/ITS_ASVs.fa",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/ITS_ASVs.fa"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/COI_tax_table.txt",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/COI_tax_table.txt"
+        },
+        {
+            "@id": "./final_count_taxonomy_fasta_files/ITS_ASV_table.txt",
+            "@type": "File",
+            "label": "./final_count_taxonomy_fasta_files/ITS_ASV_table.txt"
+        },
+        {
+            "@id": "./2._rename_samples.R",
+            "@type": "File",
+            "label": "./2._rename_samples.R"
+        },
+        {
+            "@id": "./sample_data.csv",
+            "@type": "File",
+            "label": "./sample_data.csv"
+        },
+        {
+            "@id": "./3._COI_merge_tables.R",
+            "@type": "File",
+            "label": "./3._COI_merge_tables.R"
+        },
+        {
+            "@id": "./3._ITS_merge_tables.R",
+            "@type": "File",
+            "label": "./3._ITS_merge_tables.R"
+        },
+        {
+            "@id": "./3._18S_merge_tables.R",
+            "@type": "File",
+            "label": "./3._18S_merge_tables.R"
+        },
+        {
+            "@id": "./4._gene_analysis.R",
+            "@type": "File",
+            "label": "./4._gene_analysis.R"
+        },
+        {
+            "@id": "./1._decontam.R",
+            "@type": "File",
+            "label": "./1._decontam.R"
         }
     ]
 }
