@@ -43,7 +43,13 @@
                 {
                     "@id": "./final_count_taxonomy_fasta_files/ITS_ASV_table.txt"
                 }
-            ]
+            ],
+            "description": "The output of the R scripts to merge the relevant data from the individual PEMA runs. Final ASV/OTU count tables, taxonomy tables, and fasta files for each marker gene ",
+            "downloadURL": "https://data.arms-mbon.org/code_release_002/latest/#./final_count_taxonomy_fasta_files/",
+            "creator": {
+                "id": "_:JustinePagnier"
+            },
+            "dct:relation": "https://github.com/arms-mbon/code_release_002/blob/main/gene_analysis.R"
         },
         {
             "@id": "./",
@@ -73,6 +79,85 @@
                 },
                 {
                     "@id": "./1._decontam.R"
+                }
+            ],
+            "license": "https://creativecommons.org/public-domain/cc0/",
+            "title": "code_release_002",
+            "wasAssociatedWith": [
+                {
+                    "@id": "_:JustinePagnier"
+                },
+                {
+                    "@id": "_:MatthiasObst"
+                },
+                {
+                    "@id": "_:KatrinaExter"
+                },
+                {
+                    "@id": "_:NaurasDaraghmeh"
+                }
+            ],
+            "creator": [
+                {
+                    "@id": "_:JustinePagnier"
+                },
+                {
+                    "@id": "_:KatrinaExter"
+                },
+                {
+                    "@id": "_:NaurasDaraghmeh"
+                },
+                {
+                    "@id": "_:ARMSProject"
+                },
+                {
+                    "@id": "_:AssemblePlus"
+                }
+            ],
+            "publisher": {
+                "@id": "_:VLIZ"
+            },
+            "ContactPoint": [
+                "opsci@vliz.be",
+                {
+                    "@id": "_:MatthiasObst"
+                }
+            ],
+            "description": "All the code and selected outputs that were used/generated in the analysis of the ARMS-MBON species results for the second data release.",
+            "dct:relation": [
+                "https://github.com/arms-mbon/analysis_release_002",
+                "https://github.com/arms-mbon/data_release_002"
+            ],
+            "keywords": [
+                "sample",
+                "measurement",
+                "biodiversity",
+                "long-term-changes",
+                "marine-environment",
+                "genetics",
+                "benthic-communities"
+            ],
+            "dcat:theme": [
+                {
+                    "@id": "http://semanticscience.org/resource/SIO_001050"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ExO_0000067"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=2185"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=3505"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=1150"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=2365"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=2091"
                 }
             ]
         },
@@ -129,32 +214,109 @@
         {
             "@id": "./sample_data.csv",
             "@type": "File",
-            "label": "./sample_data.csv"
+            "label": "./sample_data.csv",
+            "description": "Input file for the gene analysis",
+            "downloadURL": "https://data.arms-mbon.org/code_release_002/latest/#./sample_data.csv",
+            "creator": {
+                "@id": "_:JustinePagnier"
+            },
+            "encodingFormat": "csv",
+            "dct:relation": "https://github.com/arms-mbon/code_release_002/blob/main/gene_analysis.R"
         },
         {
             "@id": "./3._COI_merge_tables.R",
-            "@type": "File",
-            "label": "./3._COI_merge_tables.R"
+            "@type": "SoftwareSourceCode",
+            "label": "./3._COI_merge_tables.R",
+            "description": "Code to  merge the COI data (read count, taxonomy, and fasta files) from individual PEMA runs",
+            "downloadURL": "https://data.arms-mbon.org/code_release_002/latest/#./3._COI_merge_tables.R",
+            "creator": {
+                "@id": "_:NaurasDaraghmeh"
+            },
+            "programmingLanguage": "R"
         },
         {
             "@id": "./3._ITS_merge_tables.R",
-            "@type": "File",
-            "label": "./3._ITS_merge_tables.R"
+            "@type": "SoftwareSourceCode",
+            "label": "./3._ITS_merge_tables.R",
+            "description": "Code to merge the ITS data (read count, taxonomy, and fasta files) from individual PEMA runs",
+            "downloadURL": "https://data.arms-mbon.org/code_release_002/latest/#./3._ITS_merge_tables.R",
+            "creator": {
+                "@id": "_:NaurasDaraghmeh"
+            },
+            "programmingLanguage": "R"
         },
         {
             "@id": "./3._18S_merge_tables.R",
-            "@type": "File",
-            "label": "./3._18S_merge_tables.R"
+            "@type": "SoftwareSourceCode",
+            "label": "./3._18S_merge_tables.R",
+            "description": "Code to merge the 18S data (read count, taxonomy, and fasta files) from individual PEMA runs",
+            "downloadURL": "https://data.arms-mbon.org/code_release_002/latest/#./3._18S_merge_tables.R",
+            "creator": {
+                "@id": "_:NaurasDaraghmeh"
+            },
+            "programmingLanguage": "R"
         },
         {
             "@id": "./4._gene_analysis.R",
-            "@type": "File",
-            "label": "./4._gene_analysis.R"
+            "@type": "SoftwareSourceCode",
+            "label": "./4._gene_analysis.R",
+            "description": "Code to explore the sequencing data output by the merging scripts",
+            "downloadURL": "https://data.arms-mbon.org/code_release_002/latest/#./4._gene_analysis.R",
+            "creator": {
+                "@id": "_:NaurasDaraghmeh"
+            },
+            "programmingLanguage": "R"
         },
         {
             "@id": "./1._decontam.R",
             "@type": "File",
             "label": "./1._decontam.R"
+        },
+        {
+            "@id": "_:JustinePagnier",
+            "@type": "Person",
+            "name": "Justine Pagnier",
+            "email": "justine.pagnier@gu.se",
+            "identifier": "https://orcid.org/0000-0002-6531-1374"
+        },
+        {
+            "@id": "_:MatthiasObst",
+            "@type": "Person",
+            "name": "Matthias Obst",
+            "email": "matthias.obst@marine.gu.se",
+            "identifier": "https://orcid.org/0000-0003-0264-9631"
+        },
+        {
+            "@id": "_:KatrinaExter",
+            "@type": "Person",
+            "name": "Katrina Exter",
+            "email": "katrina.exter@vliz.be",
+            "identifier": "https://orcid.org/0000-0002-5911-1536"
+        },
+        {
+            "@id": "_:NaurasDaraghmeh",
+            "@type": "Person",
+            "name": "Nauras Daraghmeh",
+            "email": "naurasd@googlemail.com",
+            "identifier": "https://orcid.org/0000-0001-8261-824X"
+        },
+        {
+            "@id": "_:ARMSProject",
+            "@type": "Project",
+            "name": "ARMS-MBON",
+            "identifier": "https://arms-mbon.eu"
+        },
+        {
+            "@id": "_:AssemblePlus",
+            "@type": "Project",
+            "name": "ASSEMBLE Plus",
+            "identifier": "https://cordis.europa.eu/project/id/730984"
+        },
+        {
+            "@id": "_:VLIZ",
+            "@type": "Organization",
+            "name": "Flanders Marine Institute",
+            "url": "https://www.vliz.be/en"
         }
     ]
 }
