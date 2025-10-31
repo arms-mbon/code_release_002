@@ -19,6 +19,15 @@ This script performs blank curation as the first step of data processing. Using 
 The second step involves renaming sample identifiers. PEMA outputs use ENA accession numbers as sample names, which are replaced with their corresponding material sample IDs for clarity and consistency.
 
 ---
+#### Taxonomy Correction
+
+The taxonomic assignments from PEMA for **COI** and **18S** have been curated due to various issues. See more details [here](https://github.com/arms-mbon/analysis_release_002/tree/main/taxonomic_assignments). Code is available in:  
+ [`code_release_001`](https://github.com/arms-mbon/code_release_001)
+
+- **For 18S**: `FixPEMAtaxassigments_18S_taxonomist.py`
+- **For COI**: `FixPEMAtaxassigments_COI_taxonomist.py`
+
+---
 
 ### 3. merge_tables
 
